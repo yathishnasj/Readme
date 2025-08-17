@@ -1,0 +1,16 @@
+import java.util.Scanner;
+
+public class ItemsBought {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+
+        // Read number of items
+        System.out.print("Enter the number of items bought: ");
+        int items = sc.nextInt();
+
+        // Display the result
+        System.out.println("The customer bought " + items + " items.");
+        
+        sc.close();
+    }
+}
